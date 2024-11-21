@@ -1,5 +1,5 @@
 {
-  "type" : "module",
+  "type": "module",
   "name": "kanbas-node-server-app-cs5610-fa24",
   "version": "1.0.0",
   "description": "HTTP Server integrating with a React front end",
@@ -11,6 +11,7 @@
   "author": "Shiv Bhutani",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.1"
   }
 }
