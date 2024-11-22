@@ -11,11 +11,11 @@ export function createAssignment(assignment){
     return newAssignment
 }
 export function deleteAssignment(assignmentId){
-    const {assignments} = Database.assignments;
+    const {assignments} = Database
     Database.assignments = Database.assignments.filter((assignment) => assignment._id !== assignmentId )
 }
 export function updateAssignment(assignmentId, assignmentUpdates){
-    const {assignments} = Database.assignments;
+    const {assignments} = Database
     const assignment = assignments.find((assignment) => assignment._id === assignmentId);
     Object.assign(assignment,assignmentUpdates);
     return assignment
