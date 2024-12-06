@@ -23,4 +23,3 @@ export function createModule(module) {
 export function updateModule(moduleId, moduleUpdates) {
     return model.updateOne({ _id: moduleId }, moduleUpdates);
 }
-  
